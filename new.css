@@ -1,0 +1,162 @@
+html{
+    font-size: 16px;
+}
+
+.background{
+    filter: opacity(.2);
+    background-size: cover;
+    background-position: center;
+}
+.main{
+    padding: 30px;
+    border: 1px solid red;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgb(204, 201, 201);
+    text-align: center;
+    line-height: 70px;
+    position: absolute;
+    top:200px;
+    left: 500px;
+
+}
+
+label{
+    font-size: 2rem;
+    color: red;
+}
+
+input{
+    width: 400px;
+    height: 40px;
+    box-shadow: 2px 2px 1px rgb(204, 201, 201);
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+button{
+    background-color: red;
+    color: white;
+    padding: 5px;
+    width: 120px;
+    font-size: 1.8rem;
+    border: none;
+    border-radius: 25px;
+}
+
+
+@media (max-width:400px){
+    .main{
+        top: 650px;
+        left: 50px;
+        width: 650px;
+        height: 350px;
+        line-height: 100px;
+        border-radius: 20px;
+    }
+
+    label{
+        font-size: 3rem;
+    }
+
+    input{
+        border: 2px solid red;
+        height: 80px;
+        box-shadow: 10px 10px 8px rgb(204, 201, 201);
+    }
+
+    button{
+        margin-top: 15px;
+        font-size: 2.5rem;
+        width: 30%;
+        height: 80px;
+        border-radius: 35px;
+    }
+}
+
+@media (max-width:468px){
+    .main{
+        top: 650px;
+        left: 50px;
+        width: 650px;
+        height: 350px;
+        line-height: 100px;
+        border-radius: 20px;
+    }
+
+    label{
+        font-size: 3rem;
+    }
+
+    input{
+        border: 2px solid red;
+        height: 80px;
+        box-shadow: 10px 10px 8px rgb(204, 201, 201);
+    }
+
+    button{
+        margin-top: 15px;
+        font-size: 2.5rem;
+        width: 30%;
+        height: 80px;
+        border-radius: 35px;
+    }
+}
+
+@media (max-width:768px){
+    .main{
+        top: 650px;
+        left: 50px;
+        width: 650px;
+        height: 350px;
+        line-height: 100px;
+        border-radius: 20px;
+    }
+
+    label{
+        font-size: 3rem;
+    }
+
+    input{
+        border: 2px solid red;
+        height: 80px;
+        box-shadow: 10px 10px 8px rgb(204, 201, 201);
+    }
+
+    button{
+        margin-top: 15px;
+        font-size: 2.5rem;
+        width: 30%;
+        height: 80px;
+        border-radius: 35px;
+    }
+}
+
+@media (min-width:769px)and (max-width:1023px){
+    .main{
+        top: 650px;
+        left: 50px;
+        width: 650px;
+        height: 350px;
+        line-height: 100px;
+        border-radius: 20px;
+    }
+
+    label{
+        font-size: 3rem;
+    }
+
+    input{
+        border: 2px solid red;
+        height: 80px;
+        box-shadow: 10px 10px 8px rgb(204, 201, 201);
+    }
+
+    button{
+        margin-top: 15px;
+        font-size: 2.5rem;
+        width: 30%;
+        height: 80px;
+        border-radius: 35px;
+    }
+}
